@@ -7,6 +7,11 @@
   margin: 0px;
 }
 
+body {
+  /* COR GERAL */
+  background-color: #111111;
+}
+
 header {
   /* CORES */
   background-color: #111111;
@@ -26,6 +31,73 @@ header .title {
   /* FONT */
   font-size: 35px;
   font-family: "Geist Mono", monospace;
-  font-weight: 400;
+  font-weight: 800;
   font-style: bold;
+}
+
+/* --- */
+
+/* MAIN */
+main {
+  /* CORES */
+  background-color: #111111;
+  color: #d4d4d4;
+
+  padding: 30px;
+
+  /* Isso ajuda, mas vai quebrar 
+   * alguma hora */
+
+
+  /* TAMANHO */
+  height: 30vh;
+}
+
+/* DOCUMENTO */
+main #document {
+  /* FONT */
+  font-family: 'Geist Mono', monospace;
+  font-weight: 400;
+  font-size: 18px;
+
+  /* Teste com disolay */ 
+  display: flex;
+  flex-direction: column;
+  /* gap: 12px; */
+
+  white-space: normal; /* garante comportamento normal */
+  padding: 30px;
+
+  /* TAMANHO */
+  max-width: 800px;
+
+  /* Tentando centralizar */ 
+  margin: auto;
+
+  background-color: #151515;
+}
+
+/* NUMBERS */
+.number {
+  color: #6e7177;
+}
+
+/* TEXT */
+.text {
+  color: #ffffff;
+}
+
+/* COMMENT */
+.comment {
+  color: #6e7177;
+}
+
+/* CODE */
+.code {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+  margin: 5px;
+  display: flex;
+  gap: 3ch;
 }
