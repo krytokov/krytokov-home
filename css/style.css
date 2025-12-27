@@ -69,7 +69,7 @@ header .title {
   padding: 30px;
 
   /* TAMANHO */
-  max-width: 800px;
+  max-width: 950px;
 
   /* Tentando centralizar */ 
   margin: auto;
@@ -77,6 +77,10 @@ header .title {
 
   /* BACKGROUND */
   background-color: #151515;
+}
+
+a {
+  color: #ffffff;
 }
 
 /* NUMBERS */
