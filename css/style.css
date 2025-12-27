@@ -60,7 +60,7 @@ header .title {
   font-weight: 400;
   font-size: 18px;
 
-  /* Teste com disolay */ 
+  /* Teste com display */ 
   display: flex;
   flex-direction: column;
   /* gap: 12px; */
@@ -80,14 +80,10 @@ header .title {
 }
 
 /* NUMBERS */
-.number {
-  color: #6e7177;
-}
+.number { color: #6e7177; }
 
 /* TEXT */
-.text {
-  color: #ffffff;
-}
+.text { color: #ffffff; }
 
 /* COMMENT */
 .comment {
