@@ -1,0 +1,74 @@
+
+/* BODY */
+body {
+  background-color: #111111;
+}
+
+
+/* MAIN */
+#header {
+  /* CORES */
+  background-color: #111111;
+  color: #d4d4d4;
+
+  padding: 30px;
+
+  /* Isso ajuda, mas vai quebrar
+   * alguma hora */
+}
+
+/* DOCUMENTO */
+#header #document {
+  /* FONT */
+  font-family: 'Geist Mono', monospace;
+  font-weight: 400;
+  font-size: 18px;
+
+  /* Teste com display */
+  display: flex;
+  flex-direction: column;
+
+  /* white-space: normal; /* garante comportamento normal */
+  padding: 10px; /* Espaço interno */
+
+  /* TAMANHO */
+  max-width: 950px;
+
+  /* Tentando centralizar */
+  margin: auto;
+
+  /* BACKGROUND */
+  /*background-color: #151515;*/ 
+  background-color: #111111;
+}
+
+/* LINKS */
+.link {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* NUMBERS */
+.number {
+  color: #6e7177; 
+  text-align: right;
+}
+
+/* TEXT */
+.text { color: #ffffff; }
+
+/* COMMENT */
+.comment { color: #6e7177; }
+
+/* CODE */
+.code {
+  list-style: none;
+
+  padding: 0;
+
+  /* Espaço entre as linhas */
+  margin: 5px;
+
+  display: flex;
+  gap: 3ch;
+}
